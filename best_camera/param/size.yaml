@@ -1,0 +1,4 @@
+img_publisher:
+  ros__parameters:
+    width: 480
+    length: 320
