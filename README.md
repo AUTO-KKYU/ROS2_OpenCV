@@ -1,5 +1,5 @@
 # ROS2_OpenCV
-A simple ROS2 publisher that captures or records a frame from the camera using OpenCV, applies a filter, and publishes it.
+A simple ROS2 publisher that captures or records a frame from the camera using OpenCV
 
 ## Dependencies 
 - In order to take a picture, a simple service definition is needed : ***best_camera_msgs***
