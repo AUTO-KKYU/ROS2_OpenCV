@@ -1,0 +1,13 @@
+img_publisher:
+  ros__parameters:
+    width: 640
+    length: 480
+
+picture_node:
+  ros__parameters:
+    camera_topic: /edge
+    width: 640
+    length: 480
+    fps: 30.0
+    capture_images_path: "/home/kkyu/Best_camera/src/best_camera/resource/capture_images/"
+    video_files_path: "/home/kkyu/Best_camera/src/best_camera/resource/video_files/"

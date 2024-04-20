@@ -17,3 +17,12 @@ edge:
 optical_flow:
   ros__parameters:
     step: 8
+
+gray:
+  ros__parameters:
+    thrs1: 156
+
+aruco:
+  ros__parameters:
+    camera_topic: "/camera"
+    thrs1: 127
