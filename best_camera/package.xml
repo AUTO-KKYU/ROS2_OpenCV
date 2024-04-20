@@ -4,7 +4,7 @@
   <name>best_camera</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="kkyu@todo.todo">kkyu</maintainer>
+  <maintainer email="dknjy3313@gmail.com">kkyu</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>
