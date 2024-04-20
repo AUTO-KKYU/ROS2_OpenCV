@@ -25,7 +25,7 @@ $ mkdir -p ~/Best_camera/src
 $ cd ~/Best_camera/src
 $ git clone https://github.com/AUTO-KKYU/ROS2_OpenCV.git
 ```
-## prerequisite action
+## Prerequisite action
 
 **Before proceeding, ensure that you have built the package within your ROS workspace**
 ```ruby
@@ -35,7 +35,7 @@ $ source install/local_setup.bash
 ```
 ---
 
-## prepare 5 new terminals 
+## Prepare 5 new terminals 
 1. Running the img_publisher in launch file from the best_camera package
 ```ruby
 $ ros2 launch best_camera camera.launch.py 
@@ -74,5 +74,8 @@ $ ros2 service call /record best_camera_srv/srv/Record "{start: false}"
 ![image](https://github.com/AUTO-KKYU/ROS2_OpenCV/assets/118419026/cb2b8506-fc1e-4ad6-9a4e-05b9fe21dacc)
 
 ![image](https://github.com/AUTO-KKYU/ROS2_OpenCV/assets/118419026/d6cd55c5-0205-4449-90b4-3b815bba2170)
+
+https://github.com/AUTO-KKYU/ROS2_OpenCV/assets/118419026/11b45c85-e685-428c-b461-027f7f65d3e1
+
 
 
