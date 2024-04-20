@@ -1,5 +1,0 @@
-bool start
-string file_name
----
-bool result
-string message
