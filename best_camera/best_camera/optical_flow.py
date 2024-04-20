@@ -23,7 +23,7 @@ class ImgOptical(Node):
             10
         )
 
-        self.img_control = self.create_publisher(Image, '/img_optical', 10)
+        self.img_control = self.create_publisher(Image, '/optical', 10)
 
         self.cv_bridge = CvBridge()
         

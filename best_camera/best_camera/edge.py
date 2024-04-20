@@ -26,7 +26,7 @@ class ImgEdge(Node):
             10
         )
 
-        self.img_control = self.create_publisher(Image, '/img_edge', 10)
+        self.img_control = self.create_publisher(Image, '/edge', 10)
 
         self.cv_bridge = CvBridge()
 
@@ -55,6 +55,6 @@ def main():
     
     rclpy.shutdown()
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
  

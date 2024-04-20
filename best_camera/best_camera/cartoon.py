@@ -19,7 +19,7 @@ class ImgCartoon(Node):
             10
         )
 
-        self.img_control = self.create_publisher(Image, '/img_cartoon', 10)
+        self.img_control = self.create_publisher(Image, '/cartoon', 10)
 
         self.cv_bridge = CvBridge()
 
